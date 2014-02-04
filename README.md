@@ -34,7 +34,7 @@ line is: 'func f(a, b int) int { return a * b }'
 tranlation to R is: []string{"f = function(a, b) { return(a * b) }"}
 0005 bb> fmt.Printf("my var a is: %v\n", a)
 line is: 'fmt.Printf("my var a is: %v\n", a)'
-tranlation to R is: []string{`print(paste(sep="", "my var a is: ", a, "\n"))`}
+tranlation to R is: []string{`cat(paste(sep="", "my var a is: ", a, "\n"))`}
 0006 bb> 
 ~~~
 
