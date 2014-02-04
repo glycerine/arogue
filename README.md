@@ -9,7 +9,7 @@ to discern what tests are in place. All tests should pass at all times; this is 
 
 To summarize: string, boolean and numeric constants work. Assignment works, but swapping with parallel assignment does not (e.g. "a, b = b, a" will produce a = b; b = a; probably not what you want). Most binary operators work. Simple function definitions of short functions work. fmt.Printf is handled to provide diagnostic printing. 
 
-NB: Initially we were targeting scheme, but R is a better choice, it turns out. The scheme facilities for inspecting data and plotting just don't compare. We plan to hook the parser up to Rserve shortly, but at the moment it targets a chicken scheme repl.
+NB: Initially we were targeting scheme, but R is a better choice, it turns out. The scheme facilities for inspecting data and plotting just don't compare. We plan to hook the parser/translator up to Rserve shortly. Presently it displays the translation without evaluating it.
 
 MIT or Apache2 license.
 
