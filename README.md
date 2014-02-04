@@ -13,3 +13,25 @@ NB: Initially we were targeting scheme, but R is a better choice, it turns out. 
 
 MIT or Apache2 license.
 
+sample session
+--------------
+
+~~~
+go build
+./arogue
+Welcome the arogue repl! press ctrl-d to exit.
+0001 bb> a:=10
+line is: 'a:=10'
+tranlation to R is: []string{"a = 10;"}
+0002 bb> b:=12
+line is: 'b:=12'
+tranlation to R is: []string{"b = 12;"}
+0003 bb> a + b
+line is: 'a + b'
+tranlation to R is: []string{"a + b"}
+0004 bb> func f(a, b int) int { return a * b }
+line is: 'func f(a, b int) int { return a * b }'
+tranlation to R is: []string{"f = function(a, b) { return(a * b) }"}
+0005 bb> 
+~~~
+

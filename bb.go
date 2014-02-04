@@ -4,13 +4,7 @@ import (
 	"bufio"
 	"fmt"
 	"os"
-
-	"github.com/glycerine/bigbird/gochick"
 )
-
-func init() {
-	gochick.Start()
-}
 
 func main() {
 
@@ -48,11 +42,7 @@ func main() {
 		}
 
 		// step three: evaluate in the chicken-scheme repl
-		fmt.Printf("tranlation to schemeSrc is: %#v\n", schemeSrc)
+		fmt.Printf("tranlation to R is: %#v\n", schemeSrc)
 
-		for i := range schemeSrc {
-			s := gochick.Eval(schemeSrc[i])
-			fmt.Printf("eval result: '%s'\n", s)
-		}
 	}
 }
