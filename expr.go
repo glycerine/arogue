@@ -506,9 +506,9 @@ func specialCasePrintf(pkg string, name string, argSlice []string) string {
 	if len(argSlice) > 1 {
 		interleaved := interleaveFormatParts(format, argSlice[1:])
 		argStr := strings.Join(interleaved, `, `)
-		return `print(paste(sep="", ` + argStr + "))"
+		return `cat(paste(sep="", ` + argStr + "))"
 	}
-	return `print(` + format + `)`
+	return `cat(` + format + `)`
 }
 
 func interleaveFormatParts(format string, argSlice []string) []string {
