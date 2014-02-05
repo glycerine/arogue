@@ -12,7 +12,6 @@ To summarize: string, boolean and numeric constants work. Assignment works, but 
 
 NB: Initially we were targeting scheme, but R is a better choice, it turns out. The scheme facilities for inspecting data and plotting just don't compare. We plan to hook the parser/translator up to Rserve shortly. Presently it displays the translation without evaluating it.
 
-About the name arogue?  It just sounds cool. And backwards it stands for Environment Using Go Over R by Aten.
 
 MIT or Apache2 license.
 
