@@ -1,6 +1,0 @@
-#!/bin/sh
-
-#rm -f config.log config.status *~
-#cd src; make clean ; cd ..
-
-find . -name \*~ -or -name .#\* | xargs rm -f
