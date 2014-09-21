@@ -16,7 +16,8 @@ import (
 	"os"
 	"path/filepath"
 	"strings"
-	"github.com/glycerine/bigbird/translator"
+
+	"github.com/glycerine/arogue/translator"
 
 	"code.google.com/p/go.tools/go/types"
 )

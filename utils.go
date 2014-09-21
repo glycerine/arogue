@@ -309,5 +309,5 @@ func getJsTag(tag string) string {
 
 func isJsObject(t types.Type) bool {
 	named, isNamed := t.(*types.Named)
-	return isNamed && named.Obj().Pkg().Path() == "github.com/glycerine/bigbird/scm" && named.Obj().Name() == "Object"
+	return isNamed && named.Obj().Pkg().Path() == "github.com/glycerine/arogue" && named.Obj().Name() == "Object"
 }
