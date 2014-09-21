@@ -1,7 +1,7 @@
 arogue
 =======
 
-This is the beginnings of a port of the lovely [gopherjs (go -> javascript) transpiler](https://github.com/neelance/gopherjs) by Richard Musiol, to produce an R-based repl and transpiler from Go -> R.
+This is the beginnings of a port of the lovely [gopherjs (go -> javascript) transpiler](https://github.com/gopherjs/gopherjs) by Richard Musiol, to produce an R-based repl and transpiler from Go -> R.
 
 The goal is to take the world's best data analysis and debugging environment (in what other debugging environment can you stop in the middle of your code and histogram your data for outliers?) and bring its power to Go. 
 
